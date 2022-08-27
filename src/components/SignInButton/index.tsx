@@ -9,7 +9,8 @@ export function SignInButton() {
   return isUserLoggedIn? (
     <button
       className={styles.signInButton}
-     type="button">
+      type="button"
+    >
       <FaGithub color="#04d361" />
       Hiago Prates
       <FiX color='#737380' className={styles.closeIcon} />
@@ -17,7 +18,8 @@ export function SignInButton() {
   ) : (
     <button
       className={styles.signInButton}
-      type="button">
+      type="button"
+    >
       <FaGithub color="#eba417" />
       Sign in with Github
     </button>
